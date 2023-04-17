@@ -5,6 +5,10 @@ var name = Read("project name");
 var desc = Read("project description");
 var repo = Read("repository name (e.g., 'candy-kingdom/summary')");
 
+// Append '.' character at the end of the description if there is none.
+if (!desc.EndsWith("."))
+    desc += ".";
+
 Console.WriteLine("Installing...");
 
 // Core.
@@ -28,6 +32,9 @@ Replace("./src/Benchmarks/Benchmarks.csproj", "<RootNamespace>Project.Benchmarks
 
 // Solution.
 File.Move("./src/Project.sln", $"./src/{name}.sln");
+
+// README.
+Replace("./README.md", "<i>A batteries-included repository template for C# packages.</i>", $"<i>{desc}.</i>");
 
 Console.WriteLine("Done!");
 
