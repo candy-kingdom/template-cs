@@ -7,10 +7,12 @@
         <Nullable>enable</Nullable>
         <AssemblyName>Project.Playground</AssemblyName>
         <RootNamespace>Project.Playground</RootNamespace>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Core\Core.csproj" />
+        <ProjectReference Include="..\Core\Core.csproj"/>
     </ItemGroup>
 
 </Project>

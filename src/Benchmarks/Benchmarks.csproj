@@ -7,14 +7,16 @@
         <Nullable>enable</Nullable>
         <AssemblyName>Project.Benchmarks</AssemblyName>
         <RootNamespace>Project.Benchmarks</RootNamespace>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+        <PackageReference Include="BenchmarkDotNet" Version="*"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Core\Core.csproj" />
+        <ProjectReference Include="..\Core\Core.csproj"/>
     </ItemGroup>
 
 </Project>
