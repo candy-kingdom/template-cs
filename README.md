@@ -1,5 +1,16 @@
-# template-cs
-A repository template for C# projects.
+<div align="center">
+    <img src="./res/icon.png" alt="Logo" width="128" height="128"></img>
+</div>
+
+<h1 align="center">template-cs</h1>
+
+<p align="center">
+    <i>A batteries-included repository template for C# packages.</i>
+</p>
+
+<p align="center">
+    <img alt="Nuget" src="https://img.shields.io/nuget/v/Project">
+</p>
 
 ## Features
 - `Core` project that represents the library
