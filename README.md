@@ -16,9 +16,9 @@
 - `Core` project that represents the library
 - `Tests` project with `xUnit`, `FluentAssertions` and `NSubstitute` installed
 - `Benchmarks` project with `BenchmarkDotNet` installed
-- `Playground` console project for testing stuff
-- `.editorconfig`
-- NuGet publish
+- `Playground` project for playing with stuff in the console
+- `.editorconfig` (fully configured)
+- NuGet publish for `Core` project
 - GitHub Actions: testing (`test.yml`) and deployment (`deploy.yml`)
 
 ## Install
