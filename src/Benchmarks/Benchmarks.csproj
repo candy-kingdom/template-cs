@@ -2,13 +2,15 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <AssemblyName>Project.Benchmarks</AssemblyName>
         <RootNamespace>Project.Benchmarks</RootNamespace>
         <WarningsAsErrors>Nullable</WarningsAsErrors>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <IsPackable>false</IsPackable>
+        <LangVersion>12</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
